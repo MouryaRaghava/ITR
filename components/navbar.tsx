@@ -18,7 +18,7 @@ export function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <img src="/logo.png" alt="TaxEasy" className="h-11" />
+            <img src="/logo.png" alt="TaxEasy" className="h-11 mix-blend-multiply" />
         </Link>
 
         {/* Desktop Navbar Links */}

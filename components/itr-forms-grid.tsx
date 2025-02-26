@@ -88,10 +88,10 @@ export function ITRFormsGrid() {
                 <CardTitle className="text-lg text-white font-semibold">{form.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-white mb-4">To be filed by:</p>
+                <p className="text-sm text-white font-bold mb-4">To be filed by:</p>
                 <ul className="text-white-100 space-y-2">
                   {form.items.map((item, index) => (
-                    <li key={index} className="flex items-start text-sm">
+                    <li key={index} className="text-white flex items-start text-sm">
                       <span className="mr-2">•</span>
                       <span>{item}</span>
                     </li>

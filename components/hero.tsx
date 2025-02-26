@@ -55,7 +55,7 @@ export function Hero() {
             className="text-3xl md:text-5xl font-bold mb-6 text-white transform hover:translate-z-10 transition-transform duration-500 shadow-text opacity-0 animate-slideIn"
             style={{ animationDelay: '0.4s' }}
           >
-            FILE YOUR ITR FOR AY 2024-25 (FY 2023-24)
+            FILE YOUR ITR FOR AY 2024-25 <br/>(FY 2023-24)
           </h1>
 
           {/* Years of Excellence */}
