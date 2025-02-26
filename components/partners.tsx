@@ -28,7 +28,7 @@ export function Partners() {
         {`
           @keyframes scroll {
             from { transform: translateX(0); }
-            to { transform: translateX(-40%); }
+            to { transform: translateX(-30%); }
           }
           .animate-scroll {
             animation: scroll 10s linear infinite;
