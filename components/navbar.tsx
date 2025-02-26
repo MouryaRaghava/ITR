@@ -23,11 +23,11 @@ export function Navbar() {
 
         {/* Desktop Navbar Links */}
         <div className="hidden md:flex items-center space-x-6">
-          <Link href="/" className="text-sm font-medium hover:text-primary">HOME</Link>
-          <Link href="/services" className="text-sm font-medium hover:text-primary">COMPANY/LLP</Link>
-          <Link href="/itr" className="text-sm font-medium hover:text-primary">ITR FILING</Link>
-          <Link href="/gst" className="text-sm font-medium hover:text-primary">GST</Link>
-          <Link href="/about" className="text-sm font-medium hover:text-primary">ABOUT US</Link>
+        <Link href="/" className="text-sm font-bold hover:bg-blue-500 hover:text-white p-2 rounded">HOME</Link>
+          <Link href="/services" className="text-sm font-bold hover:bg-blue-500 hover:text-white p-2 rounded">COMPANY/LLP</Link>
+          <Link href="/itr" className="text-sm font-bold hover:bg-blue-500 hover:text-white p-2 rounded">ITR FILING</Link>
+          <Link href="/gst" className="text-sm font-bold hover:bg-blue-500 hover:text-white p-2 rounded">GST</Link>
+          <Link href="/about" className="text-sm font-bold hover:bg-blue-500 hover:text-white p-2 rounded">ABOUT US</Link>
         </div>
 
         {/* Mobile Menu Button (Hamburger) */}

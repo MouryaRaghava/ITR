@@ -17,27 +17,24 @@ export function Hero() {
       </div>
 
       {/* Floating 3D Elements */}
-      <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-white/5 rounded-lg transform rotate-45 animate-float" />
-        <div className="absolute top-1/3 right-1/4 w-24 h-24 bg-white/5 rounded-lg transform -rotate-12 animate-float-delay" />
-        <div className="absolute bottom-1/4 left-1/3 w-40 h-40 bg-white/5 rounded-lg transform rotate-12 animate-float" />
-        <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-white/5 rounded-lg transform rotate-60 animate-float" />
-        <div className="absolute top-1/3 right-1/4 w-24 h-24 bg-white/5 rounded-lg transform -rotate-24 animate-float-delay" />
-        <div className="absolute bottom-1/4 left-1/3 w-40 h-40 bg-white/5 rounded-lg transform rotate-24 animate-float" />
-        <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-white/5 rounded-lg transform rotate-75 animate-float" />
-        <div className="absolute top-1/3 right-1/4 w-24 h-24 bg-white/5 rounded-lg transform -rotate-36 animate-float-delay" />
-        <div className="absolute bottom-1/4 left-1/3 w-40 h-40 bg-white/5 rounded-lg transform rotate-36 animate-float" />
-
-        <div className="absolute top-1/2 left-1/2 w-32 h-32 bg-white/5 rounded-lg transform rotate-45 animate-float" />
-        <div className="absolute top-1/5 right-1/5 w-24 h-24 bg-white/5 rounded-lg transform -rotate-12 animate-float-delay" />
-        <div className="absolute bottom-1/2 left-1/6 w-40 h-40 bg-white/5 rounded-lg transform rotate-12 animate-float" />
-        <div className="absolute top-1/2 left-1/2 w-32 h-32 bg-white/5 rounded-lg transform rotate-60 animate-float" />
-        <div className="absolute top-1/4 right-1/5 w-24 h-24 bg-white/5 rounded-lg transform -rotate-24 animate-float-delay" />
-        <div className="absolute bottom-1/2 left-1/6 w-40 h-40 bg-white/5 rounded-lg transform rotate-24 animate-float" />
-        <div className="absolute top-1/2 left-1/2 w-32 h-32 bg-white/5 rounded-lg transform rotate-75 animate-float" />
-        <div className="absolute top-1/5 right-1/5 w-24 h-24 bg-white/5 rounded-lg transform -rotate-36 animate-float-delay" />
-        <div className="absolute bottom-1/2 left-1/3 w-40 h-40 bg-white/5 rounded-lg transform rotate-36 animate-float" />
-      </div>
+      <div className="absolute inset-0 overflow-hidden">
+  <div className="absolute top-[10%] left-[15%] w-32 h-32 bg-white/5 rounded-lg rotate-[45deg] animate-[float_5s_infinite_ease-in-out]" />
+  <div className="absolute top-[25%] right-[20%] w-24 h-24 bg-white/5 rounded-lg rotate-[-12deg] animate-[float_6s_infinite_ease-in-out]" />
+  <div className="absolute bottom-[30%] left-[40%] w-40 h-40 bg-white/5 rounded-lg rotate-[12deg] animate-[float_4s_infinite_ease-in-out]" />
+  <div className="absolute top-[5%] left-[60%] w-32 h-32 bg-white/5 rounded-lg rotate-[60deg] animate-[float_7s_infinite_ease-in-out]" />
+  <div className="absolute top-[40%] right-[10%] w-24 h-24 bg-white/5 rounded-lg rotate-[-24deg] animate-[float_5s_infinite_ease-in-out]" />
+  <div className="absolute bottom-[10%] left-[20%] w-40 h-40 bg-white/5 rounded-lg rotate-[24deg] animate-[float_6s_infinite_ease-in-out]" />
+  <div className="absolute top-[50%] left-[5%] w-32 h-32 bg-white/5 rounded-lg rotate-[75deg] animate-[float_4.5s_infinite_ease-in-out]" />
+  <div className="absolute top-[20%] right-[35%] w-24 h-24 bg-white/5 rounded-lg rotate-[-36deg] animate-[float_5.5s_infinite_ease-in-out]" />
+  <div className="absolute bottom-[20%] left-[50%] w-40 h-40 bg-white/5 rounded-lg rotate-[36deg] animate-[float_6.5s_infinite_ease-in-out]" />
+  <div className="absolute top-[60%] right-[15%] w-32 h-32 bg-white/5 rounded-lg rotate-[-45deg] animate-[float_4.5s_infinite_ease-in-out]" />
+  <div className="absolute top-[30%] left-[75%] w-32 h-32 bg-white/5 rounded-lg rotate-[15deg] animate-[float_5.2s_infinite_ease-in-out]" />
+  <div className="absolute bottom-[40%] right-[25%] w-24 h-24 bg-white/5 rounded-lg rotate-[15deg] animate-[float_6.2s_infinite_ease-in-out]" />
+  <div className="absolute top-[70%] left-[10%] w-40 h-40 bg-white/5 rounded-lg rotate-[-15deg] animate-[float_4.2s_infinite_ease-in-out]" />
+  <div className="absolute top-[40%] right-[45%] w-32 h-32 bg-white/5 rounded-lg rotate-[45deg] animate-[float_7.2s_infinite_ease-in-out]" />
+  <div className="absolute bottom-[50%] left-[30%] w-24 h-24 bg-white/5 rounded-lg rotate-[-45deg] animate-[float_5.2s_infinite_ease-in-out]" />
+  <div className="absolute bottom-[30%] right-[50%] w-40 h-40 bg-white/5 rounded-lg rotate-[45deg] animate-[float_6.2s_infinite_ease-in-out]" />
+</div>
 
       {/* Main Content */}
       <div className="container relative z-20 mx-auto px-4 py-20 h-screen flex flex-col items-center justify-center">
